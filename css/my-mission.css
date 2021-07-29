@@ -1,0 +1,228 @@
+html {
+  background-color: #FBFEF9;
+  min-width: 0em;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+  font-family: georgia;
+  display: flex;
+  justify-content: space-around;
+  background-color: #8ecae6;
+  font-size: 1.5em;
+  padding: .5em 1em .5em 1em;
+}
+
+/*home button*/
+
+.home {
+  margin-right: 7em;
+  font-size: .75em;
+  border: 1px solid black;
+}
+
+.home-text {
+  font-size: 2em;
+  color: #023047;
+  text-decoration: none;
+}
+
+.home-text:hover {
+  color: #fb8500;
+  transition: .5s;
+}
+
+.home-text:link {
+
+}
+
+/*END home button*/
+
+/*interst button*/
+.interests {
+  padding-top: .5em;
+}
+
+.interests-text {
+  color: #023047;
+  text-decoration: none;
+}
+
+.interests-text:hover {
+  color: #fb8500;
+  transition: .5s;
+}
+
+.intersts-text:link {
+  text-decoration: none;
+}
+
+/*END interst button*/
+
+/*mission button*/
+.mission {
+  padding-top: .5em;
+}
+
+.mission-text{
+  color: #023047;
+  text-decoration: none;
+}
+
+.mission-text:hover {
+  color: #fb8500;
+  transition: .5s;
+}
+
+.mission-text:link {
+  text-decoration: none;
+}
+/*END mission button*/
+
+/*work button*/
+.work {
+  padding-top: .5em;
+}
+
+.work-text{
+  color: #023047;
+  text-decoration: none;
+}
+
+.work-text:hover {
+  color: #fb8500;
+  transition: .5s;
+}
+
+.work-text:link {
+    text-decoration: none;
+}
+
+/*END work button*/
+
+/*wwm button*/
+
+.wwm {
+  padding-top: .5em;
+}
+
+.wwm-text {
+  color: #023047;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.wwm-text:hover {
+  color: #fb8500;
+  transition: .5s;
+}
+
+.wwm-text:link{
+    text-decoration: none;
+}
+
+/*END wwm button*/
+
+/*my mission page content*/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-arround;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.community h2 {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2.5em;
+
+  background-color: #219ebc;
+  transition: .75s;
+  transform: translateY(-.2em);
+  box-shadow: 1px 1px 1px black;
+  visibility: visible;
+}
+
+.community p {
+  font-size: 1.5em;
+}
+
+
+.tech h2 {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2.5em;
+
+  background-color: #219ebc;
+  transition: .75s;
+  transform: translateY(-.2em);
+  box-shadow: 1px 1px 1px black;
+  visibility: visible;
+  animation-delay: 2s;
+}
+
+.tech p {
+  font-size: 1.5em;
+}
+
+/*footer*/
+
+
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  font-family: georgia;
+  margin-top: 10%;
+}
+
+.linkedin {
+  margin-right: 7em;
+  font-size: .75em;
+}
+
+.linkedin-text {
+  font-size: 2.5em;
+  color: #8ecae6;
+  text-decoration: none;
+}
+
+.linkedin-text:hover {
+  color: #fb8500;
+  transition: .5s;
+}
+
+.linkedin-text:link {
+
+}
+
+.github {
+
+}
+
+.github-text {
+  font-size: 2em;
+  color: #8ecae6;
+  text-decoration: none;
+}
+
+.github-text:hover {
+  color: #fb8500;
+  transition: .5s;
+}
+
+.github-text:link {
+
+}
